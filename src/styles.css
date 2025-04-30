@@ -63,3 +63,14 @@ body {
 	width: 50%;
 	background-color: #D8A7B1;
 }
+
+.projectCard {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	max-width: 250px;
+	display: inline-block;
+}
