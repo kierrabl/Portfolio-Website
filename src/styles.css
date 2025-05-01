@@ -73,4 +73,17 @@ body {
 	text-align: center;
 	max-width: 250px;
 	display: inline-block;
+	background-color: #D8A7B1;
+}
+
+.projectButton {
+	display: inline-block;
+	background-color: #FDECEF;
+	color: #2E2E2E;
+	padding: 10px 16px;
+	border: 1px solid;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
 }

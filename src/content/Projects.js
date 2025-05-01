@@ -2,22 +2,18 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
 	{
-		title: "Project 1",
-		description: "Project 1 description",
-		link: "Project 1 link",
+		title: "Book Club",
+		description: "A front-end web application built with a focus on dynamic interaction and user engagement. It allows book club members to create logins, search for books, and write reviews which other users can view.",
+		languages: "JavaScript, CSS, HTML, Google Books API",
+		link: "https://github.com/kierrabl/Book-Club",
 	},
 
 	{
-		title: "Project 2",
+		title: "This Portfolio Website",
 		description: "Project 2 description",
-		link: "Project 2 link",
+		languages: "React, JavaScript, HTML, CSS",
+		link: "https://github.com/kierrabl/Portfolio-Website",
 	},
-
-	{
-		title: "Project 3",
-		description: "Project 3 description",
-		link: "Project 3 link",
-	}
 ]
 
 function Projects() {
