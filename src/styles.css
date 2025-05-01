@@ -71,6 +71,7 @@ body {
 	padding: 20px;
 	margin: 10px;
 	text-align: center;
+	height: 100%; 
 	max-width: 250px;
 	display: inline-block;
 	background-color: #D8A7B1;
@@ -86,4 +87,17 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 	transition: background-color 0.3s ease;
+}
+
+.experienceCard {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px;
+	padding: 20px;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%; 
+	max-width: 600px;
+	display: block;
+	background-color: #D8A7B1;
 }

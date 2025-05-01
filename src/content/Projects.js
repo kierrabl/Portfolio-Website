@@ -19,9 +19,11 @@ const projects = [
 function Projects() {
 	return <section id="Projects" className="projectsSection">
 		<h2>Projects</h2>
-		{projects.map((project, index) => (
-  			<ProjectCard key={index} {...project} />
-		))}
+		<section className="projectsGrid">
+			{projects.map((project, index) => (
+				<ProjectCard key={index} {...project} />
+			))}
+		</section>
 	</section>
 }
 
