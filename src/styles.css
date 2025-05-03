@@ -1,4 +1,4 @@
-* {
+/** {
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -12,12 +12,11 @@ h1 {
 }
 
 body {
-	display: flex;
-	justify-content: center;
 	font-family: 'Nunito', sans-serif;
 	background-color: #FDECEF;
 	color: #2E2E2E;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 .nav {
@@ -45,14 +44,6 @@ body {
 	display: flex;
 	align-items: center;
 	padding: .25rem;
-}
-
-.nav li.active {
-	background-color: #555;
-}
-
-.nav li:hover {
-	background-color: #777;
 }
 
 .aboutParagraph {
@@ -101,3 +92,13 @@ body {
 	display: block;
 	background-color: #D8A7B1;
 }
+
+.projectLanguages {
+	font-style: italic;
+}*/
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
