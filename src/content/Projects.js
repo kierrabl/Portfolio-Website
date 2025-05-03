@@ -18,9 +18,9 @@ const projects = [
 
 function Projects() {
 	return (
-		<section id="Projects" className="py-16 px-4 bg-[#FDECEF]">
+		<section id="Projects" className="py-16 px-4 bg-white">
 			<h2 className="text-4xl font-bold text-center text-custom-navText mb-12">Projects</h2>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+			<div className="flex flex-col gap-8 max-w-4xl mx-auto">
 				{projects.map((project, index) => (
 					<ProjectCard key={index} {...project} />
 				))}

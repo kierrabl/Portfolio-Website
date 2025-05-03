@@ -1,9 +1,9 @@
 function ProjectCard({ title, description, languages, link }) {
 	return (
-		<div className="bg-custom-navBackground text-custom-navText border border-gray-300 rounded-2xl shadow-md p-6 max-w-sm w-full text-center space-y-4">
-			<h3 className="text-2xl font-semibold">{title}</h3>
-			<p className="text-base leading-relaxed">{description}</p>
-			<p className="italic text-sm">{languages}</p>
+		<div className="p-6 border border-gray-300 rounded-lg shadow-lg bg-white">
+			<h3 className="text-xl font-semibold text-custom-navText mb-2">{title}</h3>
+			<p className="text-gray-600 text-sm italic mb-2">{description}</p>
+			<p className="text-gray-500 text-sm italic mb-2">{languages}</p>
 			<a
 				href={link}
 				target="_blank"
