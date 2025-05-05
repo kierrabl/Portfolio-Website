@@ -6,12 +6,14 @@ import Projects from "./content/Projects"
 
 function App() {
 	return (
-		<BrowserRouter>
-			<Navbar />
-			<About />
-			<Experience />
-			<Projects />
-		</BrowserRouter>
+		<div className="bg-custom-background">
+			<BrowserRouter>
+				<Navbar />
+				<About />
+				<Experience />
+				<Projects />
+			</BrowserRouter>
+		</div>
 	);
 }
 

@@ -20,7 +20,7 @@ const experiences = [
 
 function Experience() {
 	return (
-		<section id="Experience" className="py-16 px-4 bg-white">
+		<section id="Experience" className="py-16 px-4 bg-transparent">
 			<h2 className="text-4xl font-bold text-center text-custom-navText mb-12">Experience</h2>
 			<div className="flex flex-col gap-8 max-w-4xl mx-auto">
 				{experiences.map((experience, index) => (

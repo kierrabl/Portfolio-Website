@@ -5,10 +5,11 @@ export default {
 		extend: {
 			colors: {
 				'custom-navBackground':'#D8A7B1',
-				'custom-navText':'#2E2E2E'
+				'custom-navText':'#D3D3D3',
+				'custom-background':'#FDECEF'
 			},
 			fontFamily: {
-				nameFont:["Playfair Display", 'serif'],
+				nameFont:["Lora", 'serif'],
 				navFont: ["Nunito", 'sans-serif']
 			}
 		}
