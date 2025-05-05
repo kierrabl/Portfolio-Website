@@ -4,13 +4,17 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'custom-navBackground':'#D8A7B1',
-				'custom-navText':'#D3D3D3',
+				'custom-navBackground':'#e4c2c9',
+				'custom-navText':'#2E2E2E',
 				'custom-background':'#FDECEF'
 			},
 			fontFamily: {
 				nameFont:["Lora", 'serif'],
-				navFont: ["Nunito", 'sans-serif']
+				navFont: ["Nunito", 'sans-serif'],
+				orbitron: ['Orbitron', 'sans-serif'],
+        		staatliches: ['Staatliches', 'sans-serif'],
+        		syncopate: ['Syncopate', 'sans-serif'],
+        		audiowide: ['Audiowide', 'sans-serif'],
 			}
 		}
 	},

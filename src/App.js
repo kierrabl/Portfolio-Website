@@ -6,7 +6,7 @@ import Projects from "./content/Projects"
 
 function App() {
 	return (
-		<div className="bg-custom-background">
+		<div className="bg-custom-navBackground">
 			<BrowserRouter>
 				<Navbar />
 				<About />
