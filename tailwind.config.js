@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'custom-navBackground':'#e4c2c9',
+				'custom-navBackground':'#E4C2C9',
 				'custom-navText':'#2E2E2E',
 				'custom-background':'#FDECEF'
 			},

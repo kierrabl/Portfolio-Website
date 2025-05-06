@@ -20,7 +20,7 @@ const experiences = [
 
 function Experience() {
 	return (
-		<section id="Experience" className="py-32 px-4 bg-transparent scroll-mt-32">
+		<section id="Experience" className="py-32 px-4 bg-transparent scroll-mt-32" style={{ scrollMarginTop: "0px" }}>
 			<h2 className="text-5xl font-bold text-center text-white mb-12 font-navFont">Experience</h2>
 			<div className="flex flex-col gap-8 max-w-4xl mx-auto">
 				{experiences.map((experience, index) => (

@@ -2,7 +2,7 @@ function About() {
 	return (
 		<>
 			<section className="min-h-screen flex items-center justify-center px-4 bg-transparent">
-				<h1 className="font-orbitron text-6xl md:text-9xl font-bold text-center text-white">Kierra Blankespoor</h1>
+				<h1 className="font-orbitron text-5xl md:text-8xl font-bold text-center text-white">Kierra Blankespoor</h1>
 			</section>
 
 			<section id="About" className="py-32 px-4 bg-transparent scroll-mt-32">

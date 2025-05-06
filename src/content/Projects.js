@@ -20,7 +20,7 @@ function Projects() {
 	return (
 		<section id="Projects" className="py-32 px-4 bg-transparent scroll-mt-32">
 			<h2 className="text-5xl font-bold text-center text-white mb-12 font-navFont">Projects</h2>
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 justify-center">
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-8 lg:px-16">
 				{projects.map((project, index) => (
 					<ProjectCard key={index} {...project} />
 				))}
