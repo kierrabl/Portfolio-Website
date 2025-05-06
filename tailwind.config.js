@@ -5,16 +5,13 @@ export default {
 		extend: {
 			colors: {
 				'custom-navBackground':'#E4C2C9',
-				'custom-navText':'#2E2E2E',
-				'custom-background':'#FDECEF'
+				'custom-text':'#2E2E2E',
+				'custom-background':'#E4C2C9'
 			},
 			fontFamily: {
-				nameFont:["Lora", 'serif'],
-				navFont: ["Nunito", 'sans-serif'],
+				body: ["Nunito", 'sans-serif'],
 				orbitron: ['Orbitron', 'sans-serif'],
-        		staatliches: ['Staatliches', 'sans-serif'],
-        		syncopate: ['Syncopate', 'sans-serif'],
-        		audiowide: ['Audiowide', 'sans-serif'],
+
 			}
 		}
 	},

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import { Menu, X } from "lucide-react"; // optional: use heroicons or other icon lib
+import { Menu, X } from "lucide-react";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -19,15 +19,15 @@ function Navbar() {
 
 				<div className="hidden md:flex justify-between w-full items-center">
 					<ul className="flex space-x-6">
-						<li><Link className="text-white font-navFont text-lg font-bold hover:text-gray-300" to="#About">About</Link></li>
-						<li><Link className="text-white font-navFont text-lg font-bold hover:text-gray-300" to="#Experience">Experience</Link></li>
-						<li><Link className="text-white font-navFont text-lg font-bold hover:text-gray-300" to="#Projects">Projects</Link></li>
+						<li><Link className="text-white font-body text-lg font-bold hover:text-gray-300" to="#About">About</Link></li>
+						<li><Link className="text-white font-body text-lg font-bold hover:text-gray-300" to="#Experience">Experience</Link></li>
+						<li><Link className="text-white font-body text-lg font-bold hover:text-gray-300" to="#Projects">Projects</Link></li>
 					</ul>
 					<ul className="flex space-x-6">
-						<li><a className="text-white font-navFont text-lg font-bold hover:text-gray-300" href="https://www.linkedin.com/in/kierra-blankespoor">LinkedIn</a></li>
-						<li><a className="text-white font-navFont text-lg font-bold hover:text-gray-300" href="https://github.com/kierrabl">GitHub</a></li>
-						<li><a className="text-white font-navFont text-lg font-bold hover:text-gray-300" href="https://drive.google.com/file/d/1tmJEtU0Wnd_SgO-oRWpW_aSoMsTsm51D/view?usp=sharing">Resume</a></li>
-						<li><a className="text-white font-navFont text-lg font-bold hover:text-gray-300" href="mailto:kierra.blankespoor@gmail.com">Email</a></li>
+						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://www.linkedin.com/in/kierra-blankespoor">LinkedIn</a></li>
+						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://github.com/kierrabl">GitHub</a></li>
+						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://drive.google.com/file/d/1tmJEtU0Wnd_SgO-oRWpW_aSoMsTsm51D/view?usp=sharing">Resume</a></li>
+						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="mailto:kierra.blankespoor@gmail.com">Email</a></li>
 					</ul>
 				</div>
 			</div>

@@ -6,9 +6,9 @@ function About() {
 			</section>
 
 			<section id="About" className="py-32 px-4 bg-transparent scroll-mt-32">
-				<h2 className="text-5xl font-navFont font-bold text-center text-white mb-12">About Me</h2>
+				<h2 className="text-5xl font-body font-bold text-center text-white mb-12">About Me</h2>
 
-				<section className="bg-white border text-custom-navText rounded-lg shadow-lg max-w-4xl mx-auto p-8 space-y-4 leading-relaxed border-gray-300 text-lg bg-opacity-70">
+				<section className="bg-white border text-custom-text rounded-lg shadow-lg max-w-4xl mx-auto p-8 space-y-4 leading-relaxed border-gray-300 text-lg bg-opacity-70">
 					<p>
 						Hi! I'm Kierra, a Computer Science student at Carleton University, specializing in Cybersecurity with a minor in Psychology. 
 						I am passionate about the intersection of cybersecurity, digital forensics, and software development. With a multidisciplinary mindset, 
