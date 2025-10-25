@@ -26,7 +26,7 @@ function Navbar() {
 					<ul className="flex space-x-6">
 						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://www.linkedin.com/in/kierra-blankespoor">LinkedIn</a></li>
 						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://github.com/kierrabl">GitHub</a></li>
-						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://drive.google.com/file/d/1GqohArtnvs8gd8LUr3waBmBE2yLr22_e/view?usp=sharing">Resume</a></li>
+						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="https://drive.google.com/file/d/1EWKBY1rqFwGYcStLOxxT0AJJsj74ogjk/view?usp=sharing">Resume</a></li>
 						<li><a className="text-white font-body text-lg font-bold hover:text-gray-300" href="mailto:kierrablankespoor@cmail.carleton.ca">Email</a></li>
 					</ul>
 				</div>

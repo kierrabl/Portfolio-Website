@@ -2,24 +2,24 @@ import ExperienceCard from "./ExperienceCard";
 
 const experiences = [
 	{
+		job: "Test Automation Intern",
+		companyAndLocation: "Ford Motor Company of Canada, Ottawa ON",
+		timeFrame: "September 2025 - Present",
+	},
+	{
+		job: "Software and Business Mentor",
+		companyAndLocation: "FIRST Robotics - Team 8729 Sparkling H2O, Ottawa ON",
+		timeFrame: "September 2025 - Present",
+	},
+	{
 		job: "Vice President of Communications",
 		companyAndLocation: "Carleton AI Society, Ottawa ON",
-		timeFrame: "November 2024 - Present"
+		timeFrame: "September 2024 - October 2025"
 	},
 	{
 		job: "Teaching Assistant - Discrete Structures I and Intro to Computers for the Arts and Social Sciences",
 		companyAndLocation: "Carleton University, Ottawa ON",
 		timeFrame: "September 2024 - April 2025",
-	},
-	{
-		job: "Sales Associate",
-		companyAndLocation: "Home Depot, Ottawa ON",
-		timeFrame: "March 2024 - Present"
-	},
-	{
-		job: "Camp Leader",
-		companyAndLocation: "Brick Works Academy, Waterloo ON",
-		timeFrame: "July 2023 - August 2023",
 	},
 	{
 		job: "Lead Administrative Student",
