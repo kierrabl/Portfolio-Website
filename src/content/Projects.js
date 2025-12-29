@@ -14,6 +14,12 @@ const projects = [
 		languages: "React, JavaScript, HTML, CSS, Tailwind CSS",
 		link: "https://github.com/kierrabl/Portfolio-Website",
 	},
+	{
+		title: "Health and Fitness Club Management System",
+		description: "A Java application that helps manage a fitness club by handling member registration, class scheduling, and room management. It uses an SQL database to store member and class information and includes easy-to-use interfaces with input validation to reduce errors.",
+		languages: "Java, SQL, JDBC",
+		link: "https://github.com/kierrabl/Health-and-Fitness-Club-Management-System"
+	}
 ];
 
 function Projects() {
